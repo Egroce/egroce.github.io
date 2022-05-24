@@ -5,6 +5,7 @@ G.AddData({
 	engineVersion:1,
 	manifest:0,
 	func:function()
+	{
 		G.funcs['game loaded']=function()
 		{
 			G.renderMap=function(map,obj)
@@ -647,5 +648,5 @@ G.AddData({
 				return c;
 			}
 		}
-	{
+	}
 }
